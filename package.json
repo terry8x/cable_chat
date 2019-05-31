@@ -1,0 +1,9 @@
+{
+  "name": "cable-chat",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "bootstrap": "3.3.7",
+    "jquery": "3.4.1"
+  }
+}
