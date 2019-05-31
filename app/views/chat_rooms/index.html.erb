@@ -1,0 +1,11 @@
+<h1>Chat Rooms</h1>
+
+<div class="pull-left">
+	<%= link_to("New chat room", new_chat_room_path, class: 'btn btn-primary') %>
+</div>
+
+<ul>
+	<% @chat_rooms.each do |room| %>
+		<li><%= link_to("Enter #{room.title}", chat_room_path(room), class: 'btn btn-success') %></li>
+	<% end %>
+</ul>

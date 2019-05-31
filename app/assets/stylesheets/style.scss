@@ -1,0 +1,18 @@
+.navbar-default {
+	background-color: #212121;
+	border-color: #212121;
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+	color: orange;
+	font-size: 28px;
+}
+
+#messages {
+  	max-height: 450px;
+  	overflow-y: auto;
+  	.avatar {
+    	margin: 0.5rem;
+  	}
+}

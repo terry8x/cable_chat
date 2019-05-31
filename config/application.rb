@@ -47,5 +47,13 @@ module CableChat
     # Skip belongs_to association presence validation
     config.active_record.belongs_to_required_by_default = false
 
+    # ActiveJob configuration
+    # config.active_job.queue_adapter = :sidekiq
+
+    # ActionCable configuration
+    config.action_cable.mount_path = '/websocket'
+    config.action_cable.allowed_request_origins = ['http://localhost:3000', %r(https?://.*ypquan.com)]
+    config.action_cable.disable_request_forgery_protection = true
+
   end
 end
